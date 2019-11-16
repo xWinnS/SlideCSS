@@ -1,3 +1,3 @@
 # Slide de imagens com CSS.
 
-![imagem de exemplo]()
+![imagem de exemplo](https://github.com/xWinnS/SlideCSS/blob/master/example.gif)
