@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.opacity_true{
+animation-name: true;
+animation-duration: 1s;
+animation-interation-count: 1;
+}
+
+.opacity_false{
+animation-name: false;
+animation-duration: 1s;
+animation-interation-count: 1;
+opacity: 0;
+}
+
+@keyframes true{
+    from{
+        opacity: 0;
+        transform: scale(0.5); 
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes false{
+    from{
+        opacity: 1;
+    }
+    to{
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
